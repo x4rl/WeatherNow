@@ -320,7 +320,7 @@ const getWeatherWithParams = async (lat, lon) => {
 }
 
 const getCityLocation = async () => {
-    const geoEndpoint = `http://api.openweathermap.org/geo/1.0/direct?q=${inputValue}&appid=${apiKey}`
+    const geoEndpoint = `https://api.openweathermap.org/geo/1.0/direct?q=${inputValue}&appid=${apiKey}`
     const geoCodeResponse = await fetch(geoEndpoint)
     const data = await geoCodeResponse.json()
     const brazilianCity = data.filter((it) => it.country === 'BR')
