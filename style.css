@@ -13,6 +13,7 @@
     --card-text-shadow: rgba(0, 0, 0, 0.2);
     --abt-color:rgba(0, 0, 0, 0.13);
     --wt-cardcolor:rgb(97, 179, 255, 0.753);
+    --color-inputs: rgb(255, 255, 255);
     --body-bg-img: url('./assets/pexels-pixabay-531767.jpg');
     --body-bg-fade: linear-gradient(rgba(255, 255, 255, 0.13),rgba(255, 255, 255, 0.575));
     --body-wt-bg: url('./assets/pexels-lisa-fotios-1107717.jpg');
@@ -26,7 +27,8 @@
     --card-c-color: rgba(0, 0, 0, 0.582);
     --card-text-shadow: rgba(255, 255, 255, 0.2);
     --abt-color:rgba(255, 255, 255, 0.13);
-    --wt-cardcolor:rgba(26, 64, 99, 0.753);
+    --wt-cardcolor:rgba(79, 108, 134, 0.753);
+    --color-inputs : rgb(117, 116, 116);
     --body-bg-img: url('./assets/pexels-andré-ulysses-de-salis-8246465.jpg');
     --body-bg-fade: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.575));
     --body-wt-bg: url('./assets/pexels-egor-kamelev-1685539.jpg')
@@ -338,11 +340,13 @@ h1{
 }
 
 .weatherCity{
+    font-weight: bold;
     color: var(--font-color);
     font-size: 30px ;
 }
 
 .weatherTempdiv{
+    width: 2.2em;
     color: var(--font-color);
     display: flex;
     justify-content: center;
@@ -357,6 +361,7 @@ h1{
 .weatherStatus{
     margin-top: 10px;
     font-size: 25px;
+    font-weight: bold;
     text-transform: capitalize;
 }
 
@@ -367,18 +372,38 @@ h1{
 }
 
 #searchInput{
+    
+    background-color:var(--color-inputs);
     border-radius: 100px;
     border-style: none;
     outline: none;
     padding: 5px 10px 5px 10px;
 }
 
+#searchInput, select, textarea{
+    color: var(--font-color);
+}
+
+#searchInput::placeholder{
+    color: var(--font-color);
+}
+
 .searchBtn{
+    color:var(--font-color);
+    background-color:var(--color-inputs);
     font-size: 15px;
     padding: 0px 10px 0px 10px;
     border-radius: 40px;
     border:none;
     cursor: pointer;
+}
+
+
+
+.searchBtn:hover{
+    color: var(--fa-color);
+    background-color: var(--abt-color);
+    transition: 0.5s;
 }
 
 .weatherStatus{

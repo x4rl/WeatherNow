@@ -219,7 +219,7 @@ aboutTextdiv.appendChild(h3About2)
 
 const aboutText2 = document.createElement('p')
 aboutText2.className = 'aboutText'
-aboutText2.innerHTML = 'O WeatherNow foi desenvolvido usando HTML, CSS e JavaScript. <br> Nele foi usado um metodo aonde não foi adicionado nenhum elemento dentro da tag "body" do HTML, todos os elementos desse site são criados através do JavaScript, ou seja, essa aplicação esta sendo renderizada totalmente em JavaScript puro. <br><br> A aplicação conta com uma API de clima fornecida pela OpenWeather, no qual so é possivel fazer o uso dela com uma chave e ela precisa ser ativada, o acesso é free<br><br><br><br>Code by : Charleston<br><br><br><br>Email : charlesrenan19@gmail.com'
+aboutText2.innerHTML = 'O WeatherNow foi desenvolvido usando HTML, CSS e JavaScript. <br> Nele foi usado um metodo aonde não foi adicionado nenhum elemento dentro da tag "body" do HTML, todos os elementos desse site são criados através do JavaScript, ou seja, essa aplicação esta sendo renderizada totalmente em JavaScript puro. <br><br> A aplicação conta com uma API de clima fornecida pela OpenWeather, no qual so é possivel fazer o uso dela com uma chave e ela precisa ser ativada, o acesso é free<br><br><br><br>Code by : Charleston<br>Email : charlesrenan19@gmail.com'
 aboutTextdiv.appendChild(aboutText2)
 
 const aboutBtnup = document.createElement('button')
