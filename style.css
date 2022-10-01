@@ -13,9 +13,9 @@
     --card-text-shadow: rgba(0, 0, 0, 0.2);
     --abt-color:rgba(0, 0, 0, 0.13);
     --wt-cardcolor:rgb(97, 179, 255, 0.753);
-    --body-bg-img: url('WeatherNow/assets/pexels-pixabay-531767.jpg');
+    --body-bg-img: url('/assets/pexels-pixabay-531767.jpg');
     --body-bg-fade: linear-gradient(rgba(255, 255, 255, 0.13),rgba(255, 255, 255, 0.575));
-    --body-wt-bg: url('WeatherNow/assets/pexels-lisa-fotios-1107717.jpg');
+    --body-wt-bg: url('/assets/pexels-lisa-fotios-1107717.jpg');
 }
 
 .dark:root{
@@ -27,9 +27,9 @@
     --card-text-shadow: rgba(255, 255, 255, 0.2);
     --abt-color:rgba(255, 255, 255, 0.13);
     --wt-cardcolor:rgba(26, 64, 99, 0.753);
-    --body-bg-img: url('WeatherNow/assets/pexels-andré-ulysses-de-salis-8246465.jpg');
+    --body-bg-img: url('/assets/pexels-andré-ulysses-de-salis-8246465.jpg');
     --body-bg-fade: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.575));
-    --body-wt-bg: url('WeatherNow/assets/pexels-egor-kamelev-1685539.jpg')
+    --body-wt-bg: url('/assets/pexels-egor-kamelev-1685539.jpg')
 }
 
 body{
@@ -57,7 +57,7 @@ header{
     margin-left: 20px;
     width: 140px;
     height: 37px;
-    background-image:url(".WeatherNow/assets/WeatherNow.png");
+    background-image:url("/assets/WeatherNow.png");
     background-size: 10em;
     background-repeat: no-repeat;
     background-color:rgba(255, 255, 255, 0);
